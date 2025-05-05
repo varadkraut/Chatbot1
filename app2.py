@@ -110,9 +110,9 @@ import streamlit as st
 
 # %%
 def main():
-    st.set_page_config(page_title='Bajaj Finserv Chatbot')
+    st.set_page_config(page_title='Chatbot')
 
-    st.title("Bajaj Finserv Chatbot")
+    st.title("Chatbot")
     with st.expander("Instructions to upload PDF, DOCX, or TXT / URL"):
         st.write("1. Pull up the side bar in top left corner.")
         st.write("2. If uploading a PDF, click 'Upload PDF', select your file, and wait for 'Documents Loaded' confirmation.")
